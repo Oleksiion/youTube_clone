@@ -4,6 +4,7 @@ import Stack from "@mui/system/Stack";
 import { Link } from "react-router-dom";
 import { logo } from "../utils/constants";
 import SearchBar from "./SearchBar";
+
 const Navbar = () => (
   <Stack
     direction="row"

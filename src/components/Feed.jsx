@@ -68,6 +68,7 @@ const Feed = () => {
 
   useEffect(() => {
     console.log("Текущая категория:", selectedCategory);
+
     fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data) => {
       setVideos(data.items);
     });
